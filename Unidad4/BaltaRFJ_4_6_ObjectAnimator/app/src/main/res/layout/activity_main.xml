@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#41B8D5"
+    >
+
+    <RelativeLayout
+        android:id="@+id/animationCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonContainer">
+
+        <ImageView
+            android:id="@+id/faceIcon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sol"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="374dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRun"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:onClick="onButtonClick"
+            android:background="@drawable/uno"
+            />
+
+        <Button
+            android:id="@+id/btnRun1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:onClick="onButton1Click"
+            android:background="@drawable/dos"
+            />
+
+        <Button
+            android:id="@+id/btnRun2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:onClick="onButton2Click"
+            android:background="@drawable/tres"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
