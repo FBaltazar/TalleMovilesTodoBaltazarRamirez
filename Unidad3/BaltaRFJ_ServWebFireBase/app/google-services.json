@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1050245927799",
+    "firebase_url": "https://crudito-57209.firebaseio.com",
+    "project_id": "crudito-57209",
+    "storage_bucket": "crudito-57209.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050245927799:android:da2d7bcaa4fcc0f3",
+        "android_client_info": {
+          "package_name": "com.example.baltarfj_servwebfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050245927799-aq927fd1762h6ecf2jbcudum24q8de2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baltarfj_servwebfirebase",
+            "certificate_hash": "fc83bc8d882f4961dbc2027b95f16e5a339cee9f"
+          }
+        },
+        {
+          "client_id": "1050245927799-mudqa19m57bobak22mjnq8i1l8vui019.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNoyAa5rX3XviUWDxIrwa8Jl5fSZoz85Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050245927799-mudqa19m57bobak22mjnq8i1l8vui019.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
