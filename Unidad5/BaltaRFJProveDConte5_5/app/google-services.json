@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "986356308401",
+    "firebase_url": "https://baltaprovedorcontenido.firebaseio.com",
+    "project_id": "baltaprovedorcontenido",
+    "storage_bucket": "baltaprovedorcontenido.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986356308401:android:763c3f83f9078ff8",
+        "android_client_info": {
+          "package_name": "com.example.baltarfjprovedconte5_5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986356308401-m9nv8cosvkmkngum742dfmvj42kr4r3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baltarfjprovedconte5_5",
+            "certificate_hash": "fc83bc8d882f4961dbc2027b95f16e5a339cee9f"
+          }
+        },
+        {
+          "client_id": "986356308401-n44a8gavhivl0g164ikvftc06h71omnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZT7cFr4hFbbExoxyV8gCPnvogo8gAbpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986356308401-n44a8gavhivl0g164ikvftc06h71omnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
