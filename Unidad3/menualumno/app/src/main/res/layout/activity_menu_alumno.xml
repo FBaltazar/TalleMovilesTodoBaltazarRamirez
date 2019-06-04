@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F6F6FF"
+    tools:context=".MenuAlumno">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="427dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+            <Space
+                android:layout_height="10dp"
+                />
+            <TableRow>
+                <EditText android:id="@+id/Edi"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/chido"
+                    android:layout_span="2"/>
+            </TableRow>
+            <Space
+                android:layout_height="35dp"
+                />
+            <TableRow>
+                <Button android:id="@+id/btnBuscar"
+                    android:layout_width="1dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/bu"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"/>
+                <Button android:id="@+id/btnAgregar"
+                    android:layout_width="10dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/agri"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"/>
+            </TableRow>
+        </TableLayout>
+
+</LinearLayout>
