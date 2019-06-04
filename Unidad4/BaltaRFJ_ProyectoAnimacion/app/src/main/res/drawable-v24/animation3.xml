@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/uno" android:duration="810"/>
+    <item android:drawable="@drawable/dos" android:duration="810"/>
+    <item android:drawable="@drawable/tres" android:duration="810"/>
+    <item android:drawable="@drawable/cuatro" android:duration="810"/>
+    <item android:drawable="@drawable/cinco" android:duration="810"/>
+    <item android:drawable="@drawable/seis" android:duration="810"/>
+    <item android:drawable="@drawable/siete" android:duration="810"/>
+    <item android:drawable="@drawable/ocho" android:duration="810"/>
+    <item android:drawable="@drawable/nueve" android:duration="810"/>
+    <item android:drawable="@drawable/dies" android:duration="810"/>
+    <item android:drawable="@drawable/once" android:duration="810"/>
+</animation-list>
